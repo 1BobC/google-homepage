@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html>
 <style>
-    .center{
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-    }
-    .vertical{
-        display: text;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
+   input {
+  width: 85%;
+}
+    
     h5{
         text-align: center;
     }
@@ -35,13 +28,42 @@ a {
   padding: 8px;
   background-color: #dddddd;
 }
+b {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 .topnav a {
   float: left;
+  font-size: 12px;
+  font-family: Arial;
+  width: auto;
+  
 }
-.
+.navbar a {
+  float: left;
+  font-size: 12px;
+  font-family: Arial;
+  width: auto;
+  
+}
+.center{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    .vertical{
+        display: text;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .vertical a{
+      margin-bottom: 0px;
+    }
 </style>
 <body>
-  <div class="topnav-a"> 
+  <div class="topnav a"> 
     <ul>
   <li><a>About</a></li>
   <li><a>Store</a></li>
@@ -54,13 +76,25 @@ a {
 <div>
     
 </div>
+<div class="center">
+<img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+    alt="Google"  style= "padding-top: 109px" width="272" height="92"> 
+  </div>
 
-    <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
-    alt="Google" class="center"> 
- 
-<form>
-    <center><input type="text" class= vertical></center>
+  <div class="center">
+<form class="input">
+    <input type="text" class= "vertical";>
 </form>
+</div>
+<div class="navbar a">
+  <ul class="vertical a">
+  <li><a>Advertising</a></li>
+  <li><a>Business</a></li>
+  <li><a>How Search Works</a></li>
+  <li style="float:right"><a>Privacy Terms</a></li>
+  <li style="float:right"><a>Settings</a></float:right></li>
+</ul>
+</div>
 </body>
 
 </html>
