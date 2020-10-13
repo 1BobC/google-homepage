@@ -42,4 +42,7 @@ When I realised this I felt the time had come to stop.
 To correct this I think I need, obviously, to study examples and learn more HTML and CSS code but also learn more of how I can structure my code to ensure that I can more efficiently check that the CSS code controls the relevant elements.
 A very useful first project.
 
+I have followed up and 'tidied up' by adding head code to index.html file, created style.CSS and transferred all the style code to it, created reset.CSS and copied the meyerweb reset code into it.
+The code in the files is now easier to follow although the website looks about the same
 
+I can now go back over this code and the project 2google-homep code in 3Wschools html and css tutors - might learn something?
